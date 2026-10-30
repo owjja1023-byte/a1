@@ -1,0 +1,39 @@
+<section id="engine" data-transition="fade" style="background:#ECE6D8;color:#1B2238;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;letter-spacing:3px;color:#2E5FD1">작동 방식</p>
+<h2 style="font-family:'Noto Serif KR', Georgia, serif;font-size:64px;font-weight:700;line-height:1.2">한 단계는 이렇게 진행된다</h2>
+</div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:0px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;padding:32px;border:2px solid #2E5FD1;border-radius:16px">
+<p style="font-size:24px;font-weight:700;color:#2E5FD1">① AI</p>
+<h3 style="font-size:32px;font-weight:700">질문</h3>
+<p style="font-size:26px;line-height:1.5;color:#4A5266">단계에 필요한 정보만 선택지·단답형으로 묻는다</p>
+</div>
+<x-connector style="width:72px;color:#1B2238;border-width:3px"></x-connector>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;padding:32px;border:2px solid #B4561A;border-radius:16px">
+<p style="font-size:24px;font-weight:700;color:#B4561A">② 연구자</p>
+<h3 style="font-size:32px;font-weight:700">답변</h3>
+<p style="font-size:26px;line-height:1.5;color:#4A5266">자기 연구에 대한 사실과 선택만 입력한다</p>
+</div>
+<x-connector style="width:72px;color:#1B2238;border-width:3px"></x-connector>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;padding:32px;border:2px solid #2E5FD1;border-radius:16px">
+<p style="font-size:24px;font-weight:700;color:#2E5FD1">③ AI</p>
+<h3 style="font-size:32px;font-weight:700">산출물 생성</h3>
+<p style="font-size:26px;line-height:1.5;color:#4A5266">5요소 프롬프트를 자동 조립하고 코드를 실행한다</p>
+</div>
+<x-connector style="width:72px;color:#1B2238;border-width:3px"></x-connector>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;padding:32px;border:2px solid #B4561A;border-radius:16px">
+<p style="font-size:24px;font-weight:700;color:#B4561A">④ 연구자</p>
+<h3 style="font-size:32px;font-weight:700">검수·승인</h3>
+<p style="font-size:26px;line-height:1.5;color:#4A5266">승인하면 다음 단계로, 수정 요청 시 ③으로 돌아간다</p>
+</div>
+</div>
+<div style="display:flex;flex-direction:row;align-items:center;gap:32px;background:#1B2238;padding:32px 40px;border-radius:16px">
+<x-icon name="Database" style="color:#8FB0FF;width:56px;height:56px"></x-icon>
+<p style="font-size:28px;line-height:1.5;color:#F7F4EC"><b>연구 컨텍스트 저장소</b> — 주제·변수·문항 코드·데이터 사전·분석 결과가 다음 단계 질문과 프롬프트에 자동으로 전달된다</p>
+</div>
+<p style="font-size:26px;color:#4A5266">자연어 요청 5요소 = <b>목표 · 데이터 · 메서드 · 체크 · 아웃풋</b> — 연구자의 답변으로 시스템이 채운다</p>
+<p style="position:absolute;left:128px;bottom:64px;width:900px;font-size:24px;color:#6B7285">논문 코파일럿 사업계획서</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#6B7285;text-align:right">05</p>
+<aside>모든 단계는 같은 루프로 돌아갑니다. AI가 묻고, 연구자가 답하고, AI가 산출물을 만들고, 연구자가 검수합니다. 핵심은 연구자가 프롬프트를 쓰지 않는다는 점입니다. 목표, 데이터, 메서드, 체크, 아웃풋이라는 다섯 요소를 시스템이 연구자의 답변으로 채워 넣습니다. 그리고 앞 단계에서 정한 변수와 문항 코드는 컨텍스트 저장소에 남아 다음 단계로 자동 전달됩니다.</aside>
+</section>
